@@ -1,0 +1,219 @@
+﻿1. Should ‘ecological modeling of populations of organisms’ be considered a 
+bioinformatics research area or not? Briefly explain your answer. 
+I do not believe ecological modeling of populations of organisms should be
+ considered an area of research in bioinformatics. At its core, bioinformatics is
+  uses computers to organize and analyze databases of biology at the molecular level.
+ Ecological modeling of populations of organisms would be better suited in
+ computational biology where theory is used to construct model systems. This is not to say that certain bioinformatic tools cannot be used in modelling, but the 
+overall concept of modelling fits more with computational biology than
+ bioinformatics. 
+
+
+
+2. True/False. All molecular sequence data available at NCBI are peer-reviewed 
+   and therefore are more reliable than sequences obtained from other data bank services.
+True
+
+
+3. A database search returns a match with an E-value of 3.4 e-178.  How do you interpret this result?
+ The E-value is a statistical value that provides information about probability of 
+sequence matches.  In practice, a lower E-value signifies the sequence matches 
+are results of homology rather than random chance. I would interpret this E-value
+ as insignificant because a significant value ranges between 0.1 and -50. A 
+value of 178 is far outside of the range and suggest that the sequence is similar,
+ but not necessarily homologous.
+
+
+
+4. What are two ways that we increase the copy number of our target DNA before sequencing it?
+ PCR and Cloning
+   	
+
+
+5. How many genomes do eukaryotes generally have per cell? Prokaryotes?
+
+The genome is the total sum of an organisms DNA. Each organism has its own 
+unique genome per cell. The size of a eukaryote genome is much larger than a
+ prokaryote genome. Therefore, each cell in eukaryotes and prokaryotes have only
+ one genome, but the size of that genomes varies between species. 
+		
+
+
+6. (15 pts) You are interested in floral color evolution in the spurge family of plants. 
+   You want to find really close homologs as well as homologs from distantly related 
+   organisms. You elect to do this in two different ways, first, you decide 
+   to (3 points each below):
+ 
+
+	
+
+	1. Find a protein sequence of an R2R3-MYB transcription factor from Jatropha curcas 	--what is its accession number?  
+	DEFINITION  R2R3-MYB transcription factor [Jatropha curcas].
+		
+	ACCESSION   AFV73403
+		
+	VERSION     AFV73403.1  GI:410519446
+		
+	http://www.ncbi.nlm.nih.gov/protein/AFV73403.1
+	
+   		
+	
+	2. What type of blast is the most appropriate?
+  TBlastn because we are interested 	in finding homologs from distantly related 
+organisms, and we have a protein 	sequence as a reference. 
+    				http://www.colorado.edu/chemistry/bioinfo/FrequentlyAskedQuestions.htm
+  
+     
+   
+	3. When you do the blast to the nr database at NCBI, how many hits do you return?
+ 	100 hits
+ 
+   	
+   
+	4. Using the taxonomy report, indicate from how many species you found homologs.
+ 38
+    	 
+    	
+   
+
+	5. Download fasta files of the top 6 hits – pick sequences that are of similar 	length
+ to your sequence from J. curcas, have e-values that suggest significant homology, and are from different species. List the accession numbers from these top 6 hits 
+and their e-values from your blast.
+       
+       	
+
+		1. XM_002302392.2 (1e-130)		
+		2. XM_006374809.1 (1e-122)
+		3. XM_007227653.1 (3e-117)
+		4. NM_001288869.1 (2e-116)
+		5. XM_002284979.3 (2e-116)
+       		    
+		6. XM_008222055.1 (4e-115)
+       	
+       	
+
+
+ 7. (15 pts) Now, find a nucleotide sequence of the same gene from Jatropha curcas-what 
+is its accession number (2pts)?
+     
+     			
+	
+		DEFINITION  Jatropha curcas R2R3-MYB transcription factor (MYB1) mRNA, 	complete
+ cds.
+     	
+		ACCESSION   JX569771
+        
+		VERSION     JX569771.1  GI:410519445
+        
+		http://www.ncbi.nlm.nih.gov/nuccore/JX569771.1
+ 
+
+	
+		
+	1. What type of blast is the most appropriate in this case? (3 pts). 
+	Blastx because the query is a nucleotide sequence,and we are interested in
+ finding homologs from distantly related species. Comparing this sequence to a 
+protein database is better when searching for homologs rather than doing a blastn
+ because protein sequences are conserved more in evolution.
+
+		
+
+	2. When you do the blast to the nr database at NCBI, how many hits do you return (3 pts)? 100
+	
+   	
+	
+	3. Using the taxonomy report, indicate from how many species you found homologs 
+(3 pts). 42
+	 
+  	
+   
+	4. Download fasta files of the top 6 hits – pick sequences that are of similar 
+length to your 	sequence from curcas, and have e-values that suggest significant 
+homology. List the accession 	numbers from these top 6 hits and their e-values 
+from your blast (3 pts).
+ 
+      
+       
+		1. XP_002302428.2 (1e-129) 
+		2. XP_011017151.1 (3e-124)
+		3. XP_002285015.1 (3e-118)
+		4. XP_006434697.1 (8e-117) 
+ 			
+		5. XP_007227715.1 (2e-117)
+       					
+		6. NP_001275798.1 (9e-117)
+
+
+
+8. (15 pts) You have decided, as part of your dissertation, to investigate metapopulation dynamics of the	Glanville fritillary butterfly and thus you need to measure population structure across a landscape. You would like to first assess what genomic tools are available for this non-model organism. (Each question below is worth 3 points).
+ 
+	1. Are there any groups that have developed tools for this species, and if so, what is their website 	address?
+
+	Yes, http://www.helsinki.fi/science/metapop/files/AR2014_web.pdf
+	
+	2. What tools are they suggesting will be developed? I honestly have no idea. This could be because 
+	I am using the 2014 reporter rather than the 2013 which comes up first in Google.  
+
+	3. What tools have they developed? 
+	Statistical test that determine natural selection and random genetic drift as a 				cause of population differentiation. The Glanville fritillary genome sequences, the gene sequences, 
+	and functional annotations. Lep-Map Software, MIP scaffolder, and Linkage map superscaffolder
+	
+	4. Can you find this information on NCBI? You can find the paper, but the actual genomic information 
+	can be downloaded from their website or ENSEMBLMetzoa
+	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4164777/pdf/ncomms5737.pdf
+
+	5. Describe how you would take sequences that may be available for this species and develop a 			strategy for developing more SNPs that are not micro-array dependent. You will need to delve into 		outside resources prior to formulating a good answer!
+
+	I would use the method published in their 2014 nature paper. I'd obtain the reads and map them to 
+	the Glanville Fritillary genome using BWA and detect variants using a GATK pipeline.
+	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4164777/pdf/ncomms5737.pdf
+
+9. (15 points; basic unix) Using the Homo_sapiens.GRCh38.cds.all.fa file (link here), answer the following questions. Supply the unix command you used followed by the answer. (Each question is worth 5 points).
+ 
+	1. How many sequences are in the fasta file?
+
+		101933
+		grep -c '^>' Homo_sapiens.GRCh38.cds.all.fa_2
+
+	2. How many lines are in the fasta file?
+		
+		2066758
+		sed -n '$=' Homo_sapiens.GRCh38.cds.all.fa_2
+
+	3. Is the adapter sequence ‘AGATCGG’ present within the file?
+
+		Yes
+		grep 'AGATCGG' Homo_sapiens.GRCh38.cds.all.fa_2
+
+10. (15 points; advanced unix) Perform the following tasks. Supply the unix command you used and the file showing your changes. Each question is worth 5 points.
+
+	1. At the command line, change the name of the fasta headers in the 		file Homo_sapiens.GRCh38.cds.all.fa from their current name to a linear 	sequence, with the first entry with the fasta header >1, the second >2, and so 		on.
+
+	kamirah@kamirah-HP-Pavilion-13-x2-PC:~/Desktop/Midterm$ awk '/^>/ {print ">" 	     0++i, $2, $3, $4, $5, $6; next}{print}' < Homo_sapiens.GRCh38.cds.all.fa > 		Homo_sapiens.GRCh38.cds.all._headerchanged.fa
+
+	2. Using the file Homo_sapiens.GRCh38.82.abinitio.gtf (link here), made a.bed 		file that includes the following information, in this order: chromosome of the 		feature, type of feature (ie exon or transcript) starting bp, and ending bp.
+
+	kamirah@kamirah-HP-Pavilion-13-x2-PC:~/Desktop/Midterm$ grep -v "^#" 	
+	Homo_sapiens.GRCh38.82.abinitio.gtf | cut -f1,3,4,5 > 	
+	Homo_sapiens.GRCh38.82.abinitio.bed
+
+	3. Use grep to make two files from Homo_sapiens.GRCh38.82.abinitio.gtf: one 		with only transcripts and one with only exons. Submit these as part of 		question 10; you will be using them again later.
+
+	kamirah@kamirah-HP-Pavilion-13-x2-PC:~/Desktop/Midterm$ grep -v "^#" 
+	Homo_sapiens.GRCh38.82.abinitio.gtf | grep "transcript" > 
+	Homo_sapiens.GRCh38.82.abinitio.transcripts.bed
+
+	kamirah@kamirah-HP-Pavilion-13-x2-PC:~/Desktop/Midterm$ grep -v "^#" 	
+	Homo_sapiens.GRCh38.82.abinitio.gtf | grep "exon" > 	
+	Homo_sapiens.GRCh38.82.abinitio.exons.bed
+
+12. (20 points) You want to run a long job to the flux to perform an RNA-seq experiment. Clearly the steps that take the longest are those that require you to map the reads back to your reference transcriptome. Write an example .pbs script that would allow you to run these commands, and turn this in. Hint: you can use a pbs script from our blast exercise and replace the blast command with your alignment commands.
+
+
+	qsub -I -V -l nodes=1:ppn=3 -l walltime=3:00:00 -A eeb416f15_flux -l
+	qos=flux -q flux
+
+
+
+
+   		
